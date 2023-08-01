@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f22a2dcf203286fa77abd724edce9a8d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f22a2dcf203286fa77abd724edce9a8d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f22a2dcf203286fa77abd724edce9a8d = L.map(
+                "map_f22a2dcf203286fa77abd724edce9a8d",
+                {
+                    center: [32.248244954481564, -8.521863276710965],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_66b1c97ba017161dd7e40b7f82b5752d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f22a2dcf203286fa77abd724edce9a8d);
+        
+    
+            var marker_4ea771782878f429741996e84aab110e = L.marker(
+                [32.248244954481564, -8.521863276710965],
+                {}
+            ).addTo(map_f22a2dcf203286fa77abd724edce9a8d);
+        
+    
+            var icon_6d3ec3ed1397fc4e13e655dc385c64e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4ea771782878f429741996e84aab110e.setIcon(icon_6d3ec3ed1397fc4e13e655dc385c64e8);
+        
+    
+        var popup_afeeffb56d53780df7d55bf2e2c6237d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bf8512acdbaed0651bd5f45534b70a4 = $(`<div id="html_0bf8512acdbaed0651bd5f45534b70a4" style="width: 100.0%; height: 100.0%;">Youcode Une école de coding</div>`)[0];
+                popup_afeeffb56d53780df7d55bf2e2c6237d.setContent(html_0bf8512acdbaed0651bd5f45534b70a4);
+            
+        
+
+        marker_4ea771782878f429741996e84aab110e.bindPopup(popup_afeeffb56d53780df7d55bf2e2c6237d)
+        ;
+
+        
+    
+    
+            var marker_10867eb1b20fddf6561ad32994a4301d = L.marker(
+                [32.24891721344002, -8.524324146583343],
+                {}
+            ).addTo(map_f22a2dcf203286fa77abd724edce9a8d);
+        
+    
+            var icon_e2682bbd20d48d408746e653967f1d32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_10867eb1b20fddf6561ad32994a4301d.setIcon(icon_e2682bbd20d48d408746e653967f1d32);
+        
+    
+        var popup_db5d8349d3d520822230c0c167fc7d8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ebd621451a6238a956c30a1548dd0e0d = $(`<div id="html_ebd621451a6238a956c30a1548dd0e0d" style="width: 100.0%; height: 100.0%;">Café Monté carlo </div>`)[0];
+                popup_db5d8349d3d520822230c0c167fc7d8a.setContent(html_ebd621451a6238a956c30a1548dd0e0d);
+            
+        
+
+        marker_10867eb1b20fddf6561ad32994a4301d.bindPopup(popup_db5d8349d3d520822230c0c167fc7d8a)
+        ;
+
+        
+    
+</script>
+</html>
